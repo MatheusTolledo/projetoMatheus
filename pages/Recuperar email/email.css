@@ -1,0 +1,141 @@
+* {
+  font-family: "Nunito";
+}
+body {
+  background-color: rgba(187, 192, 205, 0.4);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Nunito", "Nunito Sans", sans-serif;
+}
+
+.container h2 {
+  font-size: 28px;
+  font-style: normal;
+  color: rgba(33, 33, 33, 1);
+}
+.container h6 {
+  position: relative;
+  bottom: -50px;
+  color: rgba(66, 66, 66, 1);
+  font-size: 15px;
+}
+
+.container_login {
+  background-color: white;
+  border-radius: 24px 0px 0px 24px;
+  height: 100vh;
+  width: 40%;
+  box-shadow: 0px 7px 30px 0px rgba(187, 192, 205, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo img {
+  width: 245px;
+  position: relative;
+  bottom: -62px;
+}
+
+.coracao img {
+  height: 100vh;
+  width: 100%;
+  margin-left: 93px;
+}
+.coracao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ou_entao {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.linha_horizontal {
+  border-top: 1px solid #616161;
+  width: 50px;
+}
+.formulario {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.formulario input {
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: #00c247;
+  width: 300px;
+  height: 40px;
+  outline: none;
+}
+.formulario label {
+  position: absolute;
+  font-size: 13px;
+  background-color: white;
+  color: #00c247;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.e-mail {
+  bottom: 34px;
+  left: 8px;
+}
+.label-email {
+  bottom: 97px;
+  left: 6px;
+}
+.abaixo-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.relembrar-senha a {
+  text-decoration: none;
+  color: rgba(44, 77, 156, 1);
+}
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.botoes button {
+  width: 300px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #00c247;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  border-color: white;
+}
+
+.botoes section {
+  color: rgba(97, 97, 97, 1);
+  font-size: 15px;
+}
+.final-senha img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 388px;
+  right: 81px;
+}
+.olho img {
+  display: flex;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 11px;
+  bottom: 9px;
+}
