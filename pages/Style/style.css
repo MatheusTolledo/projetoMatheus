@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Nunito", sans-serif;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+}
+.linhas {
+  display: flex;
+}
+.L1 {
+  border-top: 3px solid #aa6f34;
+  width: 20%;
+}
+.L2 {
+  border-top: 3px solid#D2772E;
+  width: 20%;
+}
+.L3 {
+  border-top: 3px solid #f48221;
+  width: 20%;
+}
+.L4 {
+  border-top: 3px solid #faa61a;
+  width: 20%;
+}
+.L5 {
+  border-top: 3px solid #f9e423;
+  width: 20%;
+}
+.main {
+  height: 100%;
+  display: flex;
+}
+.barraAmarela {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 366px;
+  height: 843px;
+  background-color: rgba(249, 228, 35, 1);
+}
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 29px;
+  border-left: 7px solid rgba(249, 228, 35, 1);
+}
+.opcaoEmocionometro {
+  background-color: rgba(250, 166, 26, 1);
+  border-left: 7px solid rgba(244, 130, 33, 1);
+  color: white;
+  text-decoration: none;
+}
+.opcao:hover {
+  background-color: rgba(250, 166, 26, 1);
+  border-left: 7px solid rgba(244, 130, 33, 1);
+  color: white;
+}
+
+.menu {
+  margin-top: 20px;
+}
+.usuarios {
+  display: flex;
+  align-items: center;
+}
+.opcaoUsuarios {
+  justify-content: space-between;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+li {
+  position: relative;
+  padding-left: 30px;
+  background-color: rgba(250, 166, 26, 1);
+  padding: 29px;
+  padding-left: 65px;
+  color: white;
+}

@@ -1,0 +1,27 @@
+.containerMain {
+  background-color: rgba(245, 244, 249, 1);
+  width: 100%;
+}
+.imagens {
+  display: flex;
+  display: flex;
+  gap: 41px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.percentual {
+  margin-top: 29px;
+}
+.textTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px;
+}
+.section1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}

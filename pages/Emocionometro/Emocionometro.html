@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Style/style.css" />
+    <link rel="stylesheet" href="./emocionometro.css" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,300;1,6..12,400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <div class="imagem_login">
+        <img src="../../assets/images/TelaDeLogin/imagem_login.svg" alt="" />
+      </div>
+      <div class="imagem_usuario">
+        <img src="../../assets/images/Tela inicial/perfil.png" alt="" />
+      </div>
+    </div>
+    <div class="linhas">
+      <div class="L1"></div>
+      <div class="L2"></div>
+      <div class="L3"></div>
+      <div class="L4"></div>
+      <div class="L5"></div>
+    </div>
+
+    <div class="main">
+      <div class="barraAmarela">
+        <div class="menu">
+          <a href="../TelaInicial/TelaInicial.html"
+            ><div class="opcao">
+              <img src="../../assets/images/Tela inicial/home.svg" alt="" />
+              <div>Inicio</div>
+            </div></a
+          >
+          <div onclick="AbrirAba()" class="opcao opcaoUsuarios">
+            <div class="usuarios">
+              <img src="../../assets/images/Tela inicial/add-user.svg" alt="" />
+              <div>Usuários</div>
+            </div>
+            <img src="../../assets/images/Tela inicial/right.svg" alt="" />
+          </div>
+          <ul id="ul">
+            <li>Professor</li>
+            <li>Aluno</li>
+          </ul>
+          <div class="opcao opcaoEmocionometro">
+            <img src="../../assets/images/Tela inicial/heart.svg" alt="" />
+            <div>Emocionometro</div>
+          </div>
+        </div>
+        <div class="submenu">
+          <div class="opcao">
+            <img src="../../assets/images/Tela inicial/user.svg" alt="" />
+            <div>Meu Perfil</div>
+          </div>
+          <div class="opcao">
+            <img src="../../assets/images/Tela inicial/logout.svg" alt="" />
+            <div>Sair</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerMain">
+        <div class="textTop">
+          <section class="section1">Emocionômetro da escola</section>
+          <div class="diasSemana">
+            <img src="../../assets/images/Emocionometro/Group.svg" alt="" />
+          </div>
+        </div>
+        <div class="imagens">
+          <div class="grafico">
+            <img src="../../assets/images/Emocionometro/Grafico.svg" alt="" />
+          </div>
+          <div class="cornerRight">
+            <div class="registros">
+              <img
+                src="../../assets/images/Emocionometro/registros.svg"
+                alt=""
+              />
+            </div>
+            <div class="percentual">
+              <img
+                src="../../assets/images/Emocionometro/percentual.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
