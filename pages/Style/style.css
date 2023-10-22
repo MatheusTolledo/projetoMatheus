@@ -1,3 +1,4 @@
+/*CSS GERAL*/
 body {
   margin: 0;
   padding: 0;
@@ -79,6 +80,7 @@ ul {
   padding: 0;
   margin: 0;
   display: none;
+  
 }
 
 li {
@@ -88,4 +90,45 @@ li {
   padding: 29px;
   padding-left: 65px;
   color: white;
+  cursor: pointer;
+}
+.botaoEditar {
+  background-image: url('../../assets/images/ListarProfessores/Editar.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.botaoExcluir {
+  background-image: url('../../assets/images/ListarProfessores/excluir.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.opcao:hover {
+  background-color: rgba(250, 166, 26, 1);
+  border-left: 7px solid rgba(244, 130, 33, 1);
+ 
+}
+.titulo img{
+  position: absolute;
+  top: 28px;
+  left: -38px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: white;
+  cursor: pointer;
+
 }

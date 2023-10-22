@@ -1,0 +1,148 @@
+.containerMain {
+  background-color: rgba(245, 244, 249, 1);
+  width: 100%;
+  display: flex;
+}
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section1 {
+  font-family: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  color: rgba(170, 111, 52, 1);
+}
+.section2 {
+  font-family: Nunito;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  color: rgba(117, 117, 117, 1);
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.cadastroAluno {
+  position: absolute;
+  margin-top: 106px;
+  margin-left: 461px;
+  margin-right: 18px;
+  background: #ffffff;
+  height: 354px;
+  width: 73%;
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.toggle-img {
+  width: 45px;
+  height: 30px;
+  margin-top: 5%;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f90101;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #4caf50;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+#formulario {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#formulario .inputAluno {
+  border-radius: 7px;
+  border: 2px solid #edebf6;
+  width: 211px;
+  height: 31px;
+}
+
+#formulario select {
+  height: 31px;
+  border-radius: 7px;
+  border: 2px solid #edebf6;
+  width: 211px;
+}
+
+.item {
+  margin-right: 100px;
+}
+#formulario button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 194px;
+  padding: 23px;
+
+  width: 219px;
+}
+.titulo {
+  position: relative;
+  text-wrap: nowrap;
+  left: 154px;
+}
+h4 {
+  padding: 10px;
+}
+.botaoSalvar {
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  background: #00c247;
+  border: 5px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}

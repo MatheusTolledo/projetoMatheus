@@ -1,0 +1,11 @@
+{
+  "professores": [],
+  "alunos": [
+    {
+      "nome": "Matheus",
+      "turma": "Noite",
+      "ativo": true,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../pages/Style/style.css" />
+    <link rel="stylesheet" href="./EditarProfessor.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,400&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./EditarProfessor.js" defer></script>
+  </head>
+  <body>
+    <div class="cabecalho">
+      <div class="imagem_login">
+        <img src="../../assets/images/TelaDeLogin/imagem_login.svg" alt="" />
+      </div>
+      <div class="imagem_usuario">
+        <img src="../../assets/images/Tela inicial/perfil.png" alt="" />
+      </div>
+    </div>
+    <div class="linhas">
+      <div class="L1"></div>
+      <div class="L2"></div>
+      <div class="L3"></div>
+      <div class="L4"></div>
+      <div class="L5"></div>
+    </div>
+
+    <div class="main">
+      <div class="barraAmarela">
+        <div class="menu">
+          <div class="opcao opcaoInicio">
+            <img src="../../assets/images/Tela inicial/home.svg" alt="" />
+            <div>Inicio</div>
+          </div>
+
+          <div onclick="AbrirAba()" class="opcao opcaoUsuarios">
+            <div class="usuarios">
+              <img src="../../assets/images/Tela inicial/add-user.svg" alt="" />
+              <div>Usuários</div>
+            </div>
+            <img src="../../assets/images/Tela inicial/right.svg" alt="" />
+          </div>
+
+          <ul id="ul">
+            <a href="../ListarProfessor/ListarProfessor.html"
+              ><li>Professor</li></a
+            >
+            <a href="../ListarAluno/ListarAluno.html"><li>Aluno</li></a>
+          </ul>
+          <a class="Emocionometro1" href="../Emocionometro/Emocionometro.html"
+            ><div class="opcao">
+              <img src="../../assets/images/Tela inicial/heart.svg" alt="" />
+              <div>Emocionometro</div>
+            </div></a
+          >
+        </div>
+        <div class="submenu">
+          <div class="opcao">
+            <img src="../../assets/images/Tela inicial/user.svg" alt="" />
+            <div>Meu Perfil</div>
+          </div>
+          <div class="opcao">
+            <img src="../../assets/images/Tela inicial/logout.svg" alt="" />
+            <a href="../Login/login.html">  <a href="../Login/login.html"> <div>Sair</div></a>
+          </div>
+        </div>
+      </div>
+      <div class="titulo">
+        <a href="../ListarProfessor/ListarProfessor.html">
+          <img src="../../assets/images/setaVoltar.svg" alt=""
+        /></a>
+        <h1>Editar usuário>Professor</h1>
+      </div>
+      <div class="cadastroAluno">
+        <h4>Dados do Usuário</h4>
+        <form id="formulario">
+          <div class="item">
+            <label for="nome">Nome</label>
+            <input
+              class="input-professor"
+              type="text"
+              name="nome"
+              id="nome"
+              required
+            />
+          </div>
+          <div class="item">
+            <label for="perfil">Perfil</label>
+            <select name="select" id="perfil" required>
+              <option value="Professor">Professor</option>
+              <option value="Cordenador">Coordenador</option>
+            </select>
+          </div>
+          <div class="item">
+            <label for="disciplina">Disciplina</label>
+            <input
+              class="input-professor"
+              type="text"
+              name="disciplina"
+              id="disciplina"
+              required
+            />
+          </div>
+          <div class="item">
+            <label for="toggle">Ativo</label>
+            <label class="toggle">
+              <input type="checkbox" id="toggle" name="ativo" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <button class="botaoSalvar" type="submit">Salvar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

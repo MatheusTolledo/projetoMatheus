@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista De Professores</title>
+    <link rel="stylesheet" href="../Style/style.css" />
+        <link rel="stylesheet" href="./ListarProfessor.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,400&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet"
+        />
+
+        <script src="./ListarProfessor.js" defer > </script>
+  </head>
+  <body>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+        <script src="" defer></script>
+      </head>
+      <body>
+        <div class="cabecalho">
+          <div class="imagem_login">
+            <img
+              src="../../assets/images/TelaDeLogin/imagem_login.svg"
+              alt=""
+            />
+          </div>
+          <div class="imagem_usuario">
+            <img src="../../assets/images/Tela inicial/perfil.png" alt="" />
+          </div>
+        </div>
+        <div class="linhas">
+          <div class="L1"></div>
+          <div class="L2"></div>
+          <div class="L3"></div>
+          <div class="L4"></div>
+          <div class="L5"></div>
+        </div>
+        <div class="main">
+          <div class="barraAmarela">
+            <div class="menu">
+              <a href="../TelaInicial/TelaInicial.html"
+              ><div class="opcao">
+                <img src="../../assets/images/Tela inicial/home.svg" alt="" />
+                <div>Inicio</div>
+              </div></a
+            >
+              <div onclick="AbrirAba()" class="opcao opcaoUsuarios">
+                <div class="usuarios">
+                  <img
+                    src="../../assets/images/Tela inicial/add-user.svg"
+                    alt=""
+                  />
+                  <div>Usuários</div>
+                </div>
+                <img src="../../assets/images/Tela inicial/right.svg" alt="" />
+              </div>
+              <ul id="ul">
+                <a href="../ListarProfessor/ListarProfessor.html"
+                  ><li>Professor</li></a
+                >
+                <a href="../ListarAluno/ListarAluno.html"><li>Aluno</li></a>
+              </ul>
+              <a href="../Emocionometro/Emocionometro.html"
+                ><div class="opcao">
+                  <img
+                    src="../../assets/images/Tela inicial/heart.svg"
+                    alt=""
+                  />
+                  <div>Emocionometro</div>
+                </div></a
+              >
+            </div>
+            <div class="submenu">
+              <div class="opcao">
+                <img src="../../assets/images/Tela inicial/user.svg" alt="" />
+                <div>Meu Perfil</div>
+              </div>
+              <a href="../Login/login.html">  <div class="opcao">
+                <img src="../../assets/images/Tela inicial/logout.svg" alt="" />
+             <a href="../Login/login.html">  <a href="../Login/login.html"> <div>Sair</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="containerMain">
+            <h1>Usuários>Professor</h1>
+            <div class="botaoPesquisar">
+              <div class="BuscarProfessor">
+                <input
+                  id="BuscarProfessor"
+                  type="text"
+                  placeholder="Pesquisar uma palavra chave"
+                />
+              </div>
+              <div class="botaoCadastrar">
+               <a href="../CadastroProfessor/CadastroProfessor.html"><button class="BotaoNovoUsuario">+ Novo Usuário</button></a> 
+              </div>
+            </div>
+            <div class="tabelaCadastro">
+              <table class="table">
+                <thead>
+                  <th>Nome</th>
+                  <th>Disciplina</th>
+                  <th>Perfíl</th>
+                  <th>Ativo</th>
+                  <th>Ações</th>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
